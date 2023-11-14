@@ -1,0 +1,87 @@
+.edit-tofrom {
+    width: 600px;
+    padding: 18px;
+    position: relative;
+    resize: none;
+    box-shadow: 0 12px 48px 0px rgb(109 117 141 / 20%);
+    background: rgb(255 255 255);
+    border: 0.5px solid rgb(231 233 245);
+    border-radius: 16px;
+}
+  
+.edit-content {
+    width: 600px;
+    height: 200px;
+    padding: 18px;
+    position: relative;
+    resize: none;
+    box-shadow: 0 12px 48px 0px rgb(109 117 141 / 20%);
+    background: rgb(255 255 255);
+    border: 0.5px solid rgb(231 233 245);
+    border-radius: 16px;
+}
+
+.edit-container {
+    margin-top: 24px;
+    display: flex;
+}
+  
+.edit-button {
+    /* position: absolute; */
+    background: rgb(17 166 131);
+    color: rgb(255 255 255);
+    border-radius: 6px;
+    padding: 16px 32px;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.main-image {
+    position: relative;
+}
+.main-image-story {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    width: 600px;
+    max-height: 317px;
+}
+  
+.select-image {
+    width: 100px;
+}
+
+.select-button {
+    border: none;
+    margin: auto;
+    display: flex;
+    position: relative;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.select-button+.select-button {
+    margin-left: 30px;
+}
+
+.select {
+    padding: 18px;
+    position: relative;
+    resize: none;
+    box-shadow: 0 12px 48px 0px rgb(109 117 141 / 20%);
+    background: rgb(255 255 255);
+    border: 0.5px solid rgb(231 233 245);
+    border-radius: 16px;
+    font-size: 18px;
+    margin: auto;
+}
+.select+.select {
+    margin-left: 30px;
+}
