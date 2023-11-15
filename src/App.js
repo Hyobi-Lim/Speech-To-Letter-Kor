@@ -11,7 +11,7 @@ import EditPage from "./page/EditPage";
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="editpage" element={<EditPage />} />
