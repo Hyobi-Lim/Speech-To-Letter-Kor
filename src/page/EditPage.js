@@ -85,18 +85,18 @@ function EditPage() {
     <div className="container">
       <h2>Edit Your Letter</h2>
       <br/>
-      <p style={{marginTop:"24px" }}>Edit your letter.</p>
+      <p style={{marginTop:"24px" }}>여러분만의 편지를 만들어보세요!</p>
       <br/>
 
       <div className="edit-container"> 
         <div>
-          <p style={{margin: "24px 0px"}}>Receiver</p>
+          <p style={{margin: "24px 0px"}}>받는 사람</p>
           <input type="text" className="edit-tofrom" onChange={onChangeFrom} value={from} maxlength="20"/>
 
-          <p style={{margin: "24px 0px"}}>Body of letter</p>
+          <p style={{margin: "24px 0px"}}>편지 내용</p>
           <textarea type="text" className="edit-content" onChange={onChangeStory} defaultValue={content[content.length-1]} maxlength="340"/>
           
-          <p style={{margin: "24px 0px"}}>Sender</p>
+          <p style={{margin: "24px 0px"}}>보내는 사람</p>
           <input type="text" className="edit-tofrom" onChange={onChangeTo} value={to} maxlength="20"/>
 
           <div className="btn-style">
@@ -105,21 +105,21 @@ function EditPage() {
               onClick={toggleBold}
               style={{ opacity: isBold ? 1 : 0.5 }}
             >
-              Bold
+              두껍게
             </button>
             <button
               className="edit-button"
               onClick={toggleItalic}
               style={{ opacity: isItalic ? 1 : 0.5 }}
             >
-              Italic
+              기울임
             </button>
             <button
               className="edit-button"
               onClick={toggleUnderline}
               style={{ opacity: isUnderline ? 1 : 0.5 }}
             >
-              Underline
+              밑줄
             </button>
           </div>
 
@@ -172,8 +172,8 @@ function EditPage() {
         </div>
       </div>
       <div className="btn-style">
-        <button className="edit-button" onClick={gomainpage} style={{marginRight:"50px"}}>Back To Previous Page</button>
-        <button className="edit-button" onClick={onCapture}>Letter Download</button>
+        <button className="edit-button" onClick={gomainpage} style={{marginRight:"50px"}}>이전 페이지</button>
+        <button className="edit-button" onClick={onCapture}>편지 다운로드</button>
       </div>
     </div>
   );

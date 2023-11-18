@@ -33,7 +33,7 @@ const MainPage = () => {
             <div className="container">
                 <h2>Speech to Text</h2>
                 <br />
-                <p style={{marginTop:"24px", marginBottom:"100px"}}>Say what you want to tell to the receiver (Body of the letter).</p>
+                <p style={{marginTop:"24px", marginBottom:"100px"}}>시작 버튼을 누르고 상대방에게 전하고 싶은 말을 말해보세요!</p>
 
                 <div className="main-content" onClick={() => setTextToCopy(limitedTranscript)}>
                     {limitedTranscript}
@@ -41,11 +41,11 @@ const MainPage = () => {
 
                 <div className="btn-style">
                     <button onClick={setCopied} className='btn-button'>
-                        {isCopied ? 'Copied!' : 'Copy to clipboard'}
+                        {isCopied ? '복사완료' : '복사하기'}
                     </button>
-                    <button onClick={startListening} className='btn-button'>Start Listening</button>
-                    <button onClick={SpeechRecognition.stopListening} className='btn-button'>Stop Listening</button>
-                    <button onClick={goToEditPage} className='btn-button'>Edit Content</button>
+                    <button onClick={startListening} className='btn-button'>시작</button>
+                    <button onClick={SpeechRecognition.stopListening} className='btn-button'>멈추기</button>
+                    <button onClick={goToEditPage} className='btn-button'>편지 만들기</button>
                 </div>
             </div>
         </>
