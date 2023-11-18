@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Speech-To-Letter-Kor/static/css/main.aa6e706a.css",
+    "main.js": "/Speech-To-Letter-Kor/static/js/main.b5ec1fe6.js",
+    "static/js/787.290b3a05.chunk.js": "/Speech-To-Letter-Kor/static/js/787.290b3a05.chunk.js",
+    "static/media/LetterPaper3.jpg": "/Speech-To-Letter-Kor/static/media/LetterPaper3.81f3218c91c9a2c6951d.jpg",
+    "static/media/LetterPaper1.jpg": "/Speech-To-Letter-Kor/static/media/LetterPaper1.27b28ef1ce1762caaca0.jpg",
+    "static/media/LetterPaper2.jpg": "/Speech-To-Letter-Kor/static/media/LetterPaper2.51abd58f7920b6b38021.jpg",
+    "static/media/LetterPaper4.jpg": "/Speech-To-Letter-Kor/static/media/LetterPaper4.4feea9f94d7e1154ca64.jpg",
+    "static/media/LetterPaper5.jpg": "/Speech-To-Letter-Kor/static/media/LetterPaper5.b330578f7e72d3461861.jpg",
+    "static/media/LetterPaper6.jpg": "/Speech-To-Letter-Kor/static/media/LetterPaper6.e3ed92ab9a60a65cce56.jpg",
+    "index.html": "/Speech-To-Letter-Kor/index.html",
+    "main.aa6e706a.css.map": "/Speech-To-Letter-Kor/static/css/main.aa6e706a.css.map",
+    "main.b5ec1fe6.js.map": "/Speech-To-Letter-Kor/static/js/main.b5ec1fe6.js.map",
+    "787.290b3a05.chunk.js.map": "/Speech-To-Letter-Kor/static/js/787.290b3a05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa6e706a.css",
+    "static/js/main.b5ec1fe6.js"
+  ]
+}
